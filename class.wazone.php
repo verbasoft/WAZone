@@ -6,7 +6,7 @@
  *
  * Changelog:
  * 20230625 - 1.0 creazione della libreria, nessun controllo parametri
- * 20240315 - 1.2 fix minori sui messaggi di ritorno
+ * 20240315 - 1.1 fix minori sui messaggi di ritorno
  *
  * @Copyright (c) 2023/2024 by Verbasoft
  * @Developer by Daniele Piselli <daniele@vebasoft.net>
