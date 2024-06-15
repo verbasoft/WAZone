@@ -1,7 +1,7 @@
 {
     "name": "verbasoft/wazone",
     "type": "library",
-    "description": "WhatsApp API",
+    "description": "Verbasoft WhatsApp API",
     "keywords": ["WAZone", "WhsatsApp", "API", "Verbasoft", "Gateway"],
     "homepage": "https://wazone.app",
     "license": "MIT",
@@ -9,4 +9,3 @@
         "php": ">=5.6"
     }
 }
-
