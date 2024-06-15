@@ -1,5 +1,5 @@
 
-<p style="text-align:center"><a href="https://wazone.it"><img src="https://verbasoft.github.io/WAZone/docs/logo_wazone_small.png"></a></p>
+<p align"center"><a href="https://wazone.it"><img src="https://verbasoft.github.io/WAZone/docs/logo_wazone_small.png"></a></p>
 
 # [WAZone](https://wazone.it)
 
@@ -106,7 +106,5 @@ Puoi trovare la documentazione relativa all'uso del servizio WAZone  [quì](http
 Se hai bisogno di aiuto puoi contattarci scrivendo a [supporto@verbasoft.net](mailto:supporto@verbasoft.net) o visitando la [pagina di supporto del servizio ](https://wazone.it/#CONTATTACI)
 
 ## Realizzazione
-WAZone è una realizzazione by [Verbasoft.net](https://verbasoft.net)
+WAZone è una realizzazione [Verbasoft.net](https://verbasoft.net)
 
-
-<p style="text-align:center"><a href="https://wverbasoft.net"><img src="https://verbasoft.github.io/WAZone/docs/logo_verba.png"></a></p>
