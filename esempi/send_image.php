@@ -1,6 +1,6 @@
 <?PHP
 //
-// Esempio di invio messaggio di testo WA
+// Esempio di invio messaggio multimediale WA con immagine (PNG)
 //
 
 
@@ -9,7 +9,7 @@ include("../class.wazone.php");
 
 
 // user e token sono il numero di telefono e il token del vostro cellulare
-// si trovano nel pannello di gestione del servizio nelle proprietà del dispositivo
+// si trovano nel pannello di gestione del servizio nelle proprietà del dispositivo.
 // registrarsi su https://wazone.app per avere un account di prova per 30gg
 
 $wa_user = 'IL_TUO_NUMERO';
@@ -21,14 +21,20 @@ $wa_token = 'IL_TUO_TOKEN';
 
 $wa_number = 'DESTINATARIO';
 
+include "config.inc.php";
+
+// url del file multimediale da inviare al destinatario
+$urlmedia = "https://verbasoft.github.io/WAZone-API/docs/software.png";
+
 
 // creazione della classe WAZone
 $WA = new WAZone($wa_user, $wa_token);
 
 // invio messaggio testuale
-$API = $WA->SendText($wa_number, "Prova invio messaggio!");
+$API = $WA->SendMedia($wa_number, $urlmedia);
+
 if (!$API->success) {
-   print "Errore invio messaggio \n";
+   print "Errore invio messaggio!! \n";
 } else {
    print "Messaggio inviato a $wa_number!!\n";
 }

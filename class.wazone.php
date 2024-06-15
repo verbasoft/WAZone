@@ -1,10 +1,10 @@
 <?PHP
 /*
- * class.wazone.php  (vers. 1.0)
+ * class.wazone.php  (vers. 1.1)
  * Libreria per invio messaggi WA tramite il servizio WAZone
  * funziona con PHP 5/7/8
  *
- * Changelog:
+ * Modifiche:
  * 20230625 - 1.0 creazione della libreria, nessun controllo parametri
  * 20240315 - 1.1 fix minori sui messaggi di ritorno
  *
