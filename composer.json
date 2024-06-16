@@ -1,5 +1,6 @@
 {
     "name": "verbasoft/wazone",
+    "version": "1.1.0",
     "type": "library",
     "description": "Verbasoft WhatsApp API",
     "keywords": ["WAZone", "WhsatsApp", "API", "Verbasoft", "Gateway"],
@@ -10,6 +11,5 @@
     },
     "autoload": {
         "classmap": ["class.wazone.php"]
-    },
-    "minimum-stability": "stable"
+    }
 }
