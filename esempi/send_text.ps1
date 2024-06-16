@@ -2,7 +2,7 @@
 ## Esempio di invio messaggio WA in PowerShell
 ##
 ## @Una realizzazione (C) 2023/2024 Verbasoft
-## @Sviluppato da Daniele Piselli <daniele@vebasoft.net>
+## @Sviluppato da Daniele Piselli <daniele@verbasoft.net>
 ##
 
 ## wa_device e wa_token sono il numero di telefono e il token del vostro cellulare

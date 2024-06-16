@@ -10,7 +10,7 @@
  * 20240615 - 1.2 fix e aggiornamento
  *
  * @Copyright (c) 2023/2024 by Verbasoft
- * @Developer by Daniele Piselli <daniele@vebasoft.net>
+ * @Developer by Daniele Piselli <daniele@verbasoft.net>
  *
  */
 
