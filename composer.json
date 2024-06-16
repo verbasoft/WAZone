@@ -10,6 +10,6 @@
     },
     "autoload": {
         "classmap": ["class.wazone.php"]
-    }
+    },
     "minimum-stability": "stable"
 }
