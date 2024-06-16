@@ -1,6 +1,6 @@
 {
     "name": "verbasoft/wazone",
-    "version": "1.1.0",
+    "version": "stable",
     "type": "library",
     "description": "Verbasoft WhatsApp API",
     "keywords": ["WAZone", "WhsatsApp", "API", "Verbasoft", "Gateway"],
