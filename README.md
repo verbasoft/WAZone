@@ -1,5 +1,8 @@
 
-<p align"center"><a href="https://wazone.it"><img src="https://verbasoft.github.io/WAZone/docs/logo_wazone_small.png"></a></p>
+<div align"center">
+
+![https://wazone.it](https://verbasoft.github.io/WAZone/docs/logo_wazone_small.png)
+</div
 
 # [WAZone](https://wazone.it)
 
