@@ -1,6 +1,6 @@
 <?PHP
 /*
- * class.wazone.php  (vers. 1.2)
+ * class.wazone.php  (vers. 1.5)
  * Libreria per invio messaggi WA tramite il servizio WAZone
  * funziona con PHP 5/7/8
  *
@@ -8,6 +8,7 @@
  * 20230625 - 1.0 creazione della libreria, nessun controllo parametri
  * 20240315 - 1.1 fix minori sui messaggi di ritorno
  * 20240615 - 1.2 fix e aggiornamento
+ * 20240714 - 1.5 aggiunta funzione CheckNumber
  *
  * @Copyright (c) 2023/2024 by Verbasoft
  * @Developer by Daniele Piselli <daniele@verbasoft.net>
@@ -70,6 +71,20 @@ class WAZone {
 
   return WAZone::sendAPI($data, $apiurl);
   }
+
+
+  // Controlla numero WA
+  public function CheckNumber($receiver = null) {
+
+    $data = [
+      'receiver'  => $receiver,
+      'sender'    => $this->sender,
+      'token'     => $this->token,
+    ];
+    $apiurl = $this->apiurl.'/isonwa';
+  
+    return WAZone::sendAPI($data, $apiurl);
+    }
 
 
   // funzione interna, ritorna versione server WAZone (major, minor, release)

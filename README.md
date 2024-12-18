@@ -15,8 +15,8 @@ In pochi minuti puoi integrare il tuo programma o sistema informatico collegando
 - Associazione di più numeri sul proprio account in base al profilo
 - Importa o crea rubriche per gestire l'invio ai tuoi contatti
 - ChatBot con autorisponditore per messaggi vocali o testuali
-- WebHook per automatizzare eventi ai messaggi ricevuti
 - RestAPI per integrare la tua applicazione, sito o portale internet
+- WebHook per automatizzare eventi ai messaggi ricevuti
 - Modulo mail2WA per inviare messaggi usando la posta elettronica
 - Plugin di integrazione wordpress/woocommerce e altri ambienti
 
@@ -31,7 +31,7 @@ Puoi usare questa libreria integrandola nel tuo sistema per inviare  messaggi te
 #### Crea un account
 - Crea un account WAZone [qui](https://wazone.app).
 - Una volta attivato l'account, associa il tuo dispositivo tramite il QR-Code per accedere alle tue credenziali
-- Per usare la libreria servono il DeviceID e il TokenAPI
+- Per usare la libreria servono il DeviceID e il TokenID
 
 #### Scarica la libreria
 - Scarica la libreria PHP o clona usando **git** e inseriscila nel tuo progetto, oppure includila con **Composer** si trova su [**Packagist**](https://packagist.org/)
@@ -91,7 +91,7 @@ if (!$API->success) {
 #### Invia documento pdf con testo
 ```PHP
 // url del file multimediale da inviare al destinatario
-$urlmedia = "https://verbasoft.github.io/WAZone/docs/mail2wa.pdf";
+$urlmedia = "https://verbasoft.github.io/WAZone/docs/wazone.pdf";
 
 // invia messaggio multimediale
 $API = $WA->SendMedia($wa_number, $urlmedia, "prova invio documento pdf...");
